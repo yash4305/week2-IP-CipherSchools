@@ -1,0 +1,36 @@
+div{
+    background-color: lightblue;
+    padding: 10px;
+    margin:10px;
+    width: 60px;
+}
+
+.static{
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 50px;
+    right: -130px;
+    background: purple;
+    color: #fff;
+    z-index: 100;
+}
+
+.absolute{
+    position: absolute;
+    bottom:10%;
+    right:5%;
+}
+
+.fixed {
+    position:fixed;
+    top: -80px;
+    right:20px;
+}
+
+.sticky{
+    position: sticky;
+    top:30%;
+}

@@ -1,0 +1,22 @@
+*{
+    margin: 50vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+article{
+    height:50vh;
+    background: url("sky.jpg") no-repeat center center / curve; 
+    color: white;
+    box-shadow: insert 1000px 0px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding: 35px 20px;
+    clip-path: polygon(0 0, 0 100%, 100% 32%);
+}
+
+article h1,
+article p {
+    width:50%;
+    margin:auto
+}

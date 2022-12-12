@@ -1,0 +1,68 @@
+/*Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Type/Element/Tag Selector */
+strong{
+    font-size: 20px;
+}
+
+
+
+/*Type/Element/Tag Selector */
+/* This is paragraph styling */
+p{
+    color:#2f8aa9;
+    background-color: #f61067;
+    /*Absolute units*/
+    width:20px;
+    /*Relative units*/
+    width:70vw;
+    /*The numbered values with no units*/
+    margin: 0;
+    line-height: 1.2;
+}
+
+/*Type/Element/Tag Selector */
+div{
+    /*function Values*/
+    transform: rotate(0deg);
+    width: calc(100%-20px);
+    height:100vh;
+    background-image: url("Nature.jpg");
+}
+
+/*Type/Element/Tag Selector */
+/*A shortcut property*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: blue;
+}
+
+/* Class Selector*/
+.heading{
+    background-color: #000;
+
+}
+
+/* ID Selector */
+#one{
+    font-size: 30px;
+}
+
+/* Desendant Selector */
+.div p {
+    font-size: 50px;
+}
+
+/*Combining Selector */
+.div.container{
+    font-style: italic;
+}

@@ -1,0 +1,9 @@
+div{
+    width: 50px;
+}
+
+@media screen and (max-width:768px){
+    p{
+        font-size: 30px;
+    }
+}

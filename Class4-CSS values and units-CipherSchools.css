@@ -1,0 +1,28 @@
+/* This is paragraph styling */
+p{
+    color:blue;
+    background-color: bisque;
+    /*Absolute units*/
+    width:20px;
+    /*Relative units*/
+    width:70vw;
+    /*The numbered values with no units*/
+    margin: 0;
+    line-height: 1.2;
+}
+
+div{
+    transform: rotate(0deg);
+    width: calc(100% -20px);
+    height:100vh;
+    background-image: url('Wallpaper.jpg');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: yellow;
+}
